@@ -4,8 +4,9 @@
     
     <b-button variant="primary" @click="tampilData()">Tampilkan Data</b-button>
     <div v-for="item in appSearchData" :key="item.id">
-      <p>{{item.id}}</p>
-      <p>{{item.app_name}}</p>
+      <p>id : {{item.id}}</p>
+      <p>app : {{item.app_name}}</p>
+      
     </div>
   </div>
 </template>
