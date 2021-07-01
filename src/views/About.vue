@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     
-    <h1>Beberapa Data Akan Tampil Setelah Anda Klik Tombol Dibawah</h1>
+    <h1>Beberapa Data Akan Tampil Setelah Anda Klik Tombol Dibawah : </h1>
     <b-button variant="primary" @click="tampilData()">Tampilkan Data</b-button>
     <div v-for="item in appSearchData" :key="item.id">
       <p>id : {{item.id}}</p>
